@@ -8,15 +8,15 @@ This repository implements a k-means clustering algorithm in MATLAB to classify 
 
 ## Necessary metrics
 ### Metrics for clustering
-m: Desired feature vector to consider for clustering (e.g. m = [1 2])
-metrik: Distance metrik for k-means (e.g. metrik = 'sqeuclidean')
-a: Minimal value for k-value used by 'evalclusters' (e.g. a=2)
-b: Maximal value for k-value used by 'evalclusters' (e.g. b=10)
-n: Number of repetitions of Gaussian mixture models (GMM) (e.g. n=5)
+- m: Desired feature vector to consider for clustering (e.g. m = [1 2])
+- metrik: Distance metrik for k-means (e.g. metrik = 'sqeuclidean')
+- a: Minimal value for k-value used by 'evalclusters' (e.g. a=2)
+- b: Maximal value for k-value used by 'evalclusters' (e.g. b=10)
+- n: Number of repetitions of Gaussian mixture models (GMM) (e.g. n=5)
 
 ### Boolean operators for desired diagrams
-b1: Activate for scatter plot
-b2: Activate for silhouette plot
-b3: Activate for GMM
-b4: Activate for normalized parallel coordinates
-b5: Activate for Pareto chart
+- b1: Activate for scatter plot
+- b2: Activate for silhouette plot
+- b3: Activate for GMM
+- b4: Activate for normalized parallel coordinates
+- b5: Activate for Pareto chart
